@@ -1,0 +1,160 @@
+{
+  "validation_timestamp": "2025-11-29T18:15:02.711818",
+  "iov3_criteria": {
+    "node_types": {
+      "requirement": "≥5 tipos de nodos diferentes",
+      "achieved": 6,
+      "passed": true
+    },
+    "relationship_types": {
+      "requirement": "≥5 tipos de relaciones diferentes",
+      "achieved": 5,
+      "passed": true
+    },
+    "has_examples": {
+      "requirement": "Ejemplos de instanciación con documentos académicos reales",
+      "achieved": "Sí",
+      "passed": true
+    }
+  },
+  "data_model": {
+    "node_types": [
+      {
+        "type": "Chunk",
+        "count": 165
+      },
+      {
+        "type": "Document",
+        "count": 39
+      },
+      {
+        "type": "Algorithm",
+        "count": 21
+      },
+      {
+        "type": "Concept",
+        "count": 20
+      },
+      {
+        "type": "Topic",
+        "count": 6
+      },
+      {
+        "type": "Course",
+        "count": 1
+      }
+    ],
+    "relationship_types": [
+      {
+        "type": "CONTAINS",
+        "count": 165
+      },
+      {
+        "type": "PREREQUISITE_OF",
+        "count": 53
+      },
+      {
+        "type": "MENTIONS",
+        "count": 36
+      },
+      {
+        "type": "TEACHES",
+        "count": 6
+      },
+      {
+        "type": "RELATED_TO",
+        "count": 4
+      }
+    ]
+  },
+  "examples": {
+    "nodes": {
+      "Document": [
+        {
+          "name": "Cronograma INF265-0782 (2023-2).pdf",
+          "format": null,
+          "num_chunks": 1
+        },
+        {
+          "name": "pythonlearn.pdf",
+          "format": null,
+          "num_chunks": 64
+        },
+        {
+          "name": "Agentes (Parte1).pdf",
+          "format": null,
+          "num_chunks": 1
+        }
+      ],
+      "Chunk": [
+        {
+          "chunk_id": null,
+          "text": null,
+          "embedding_dim": null
+        },
+        {
+          "chunk_id": null,
+          "text": null,
+          "embedding_dim": null
+        }
+      ],
+      "Topic": [
+        {
+          "name": "TEORÍA DE COMPILADORES - INTRODUCCIÓN"
+        },
+        {
+          "name": "ALGORITMOS Y HEURÍSTICAS DE BÚSQUEDA"
+        },
+        {
+          "name": "METAHEURÍSTICAS BIOINSPIRADAS"
+        }
+      ],
+      "Concept": [
+        {
+          "name": "computer programming languages",
+          "uri": null
+        },
+        {
+          "name": "program compilers",
+          "uri": null
+        },
+        {
+          "name": "parallel processing systems",
+          "uri": null
+        }
+      ],
+      "Algorithm": [
+        {
+          "name": "evolutionary algorithm"
+        },
+        {
+          "name": "differential evolution algorithms"
+        },
+        {
+          "name": "evolutionary algorithms"
+        }
+      ],
+      "Course": [
+        {
+          "code": "INF265",
+          "name": "APLICACIONES DE CIENCIAS DE LA COMPUTACIÓN"
+        }
+      ]
+    },
+    "relationships": {
+      "CONTAINS": [
+        {
+          "document": "Cronograma INF265-0782 (2023-2).pdf",
+          "chunk": null
+        },
+        {
+          "document": "pythonlearn.pdf",
+          "chunk": null
+        }
+      ],
+      "PREREQUISITE_OF": [],
+      "TEACHES": [],
+      "RELATED_TO": []
+    }
+  }
+}

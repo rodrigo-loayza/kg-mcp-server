@@ -1,0 +1,454 @@
+{
+  "statistics": {
+    "validation_timestamp": "2025-11-29T17:32:42.745607",
+    "iov_criteria": {
+      "required_formats": 3,
+      "description": "Pipeline ETL operativo con procesamiento exitoso de ≥3 formatos documentales"
+    },
+    "etl_pipeline_status": {
+      "total_input_documents": 39,
+      "formats_processed": [
+        "PPTX",
+        "PDF",
+        "IPYNB"
+      ],
+      "num_formats": 3,
+      "meets_requirement": true,
+      "total_images_extracted": 0
+    },
+    "chunk_generation": {
+      "total_chunks": 165,
+      "documents_with_chunks": 39,
+      "chunks_per_document": {
+        "mean": 4.23,
+        "median": 2.0,
+        "min": 1,
+        "max": 64,
+        "std": 10.11
+      },
+      "distribution": {
+        "0-50 chunks": 38,
+        "51-100 chunks": 1,
+        "101-200 chunks": 0,
+        "200+ chunks": 0
+      }
+    },
+    "embedding_coverage": {
+      "documents_with_embeddings": 39,
+      "coverage_percentage": 100.0
+    },
+    "document_details": [
+      {
+        "doc_id": "10-ensamble",
+        "filename": "10-ensamble.pptx",
+        "format": "PPTX",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Agentes (Parte1)",
+        "filename": "Agentes (Parte1).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Agentes (Parte2)",
+        "filename": "Agentes (Parte2).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "AgentesResolucion_Busqueda",
+        "filename": "AgentesResolucion_Busqueda.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Agente_BusquedaCiega_8puzzle",
+        "filename": "Agente_BusquedaCiega_8puzzle.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "AG_Busqueda_frases",
+        "filename": "AG_Busqueda_frases.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 8,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "AG_N_reynas-Desafio",
+        "filename": "AG_N_reynas-Desafio.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 5,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "AlgoritmosGeneticos(Parte1)",
+        "filename": "AlgoritmosGeneticos(Parte1).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "AlgoritmosGeneticos(Parte2)",
+        "filename": "AlgoritmosGeneticos(Parte2).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "BusquedaConInformacion",
+        "filename": "BusquedaConInformacion.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "BusquedaLocal",
+        "filename": "BusquedaLocal.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "BusquedaMapa",
+        "filename": "BusquedaMapa.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "BusquedaSinInformacion",
+        "filename": "BusquedaSinInformacion.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Clustering",
+        "filename": "Clustering.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 3,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Cronograma INF265-0782 (2023-2)",
+        "filename": "Cronograma INF265-0782 (2023-2).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Ejemplo_AgenteReactivo",
+        "filename": "Ejemplo_AgenteReactivo.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "INF265_Presentacion_EdwinVillanueva",
+        "filename": "INF265_Presentacion_EdwinVillanueva.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "InteligenciaColectiva(Parte1)",
+        "filename": "InteligenciaColectiva(Parte1).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "InteligenciaColectiva(Parte2)",
+        "filename": "InteligenciaColectiva(Parte2).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "InteligenciaColectiva",
+        "filename": "InteligenciaColectiva.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 3,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "LecturaML",
+        "filename": "LecturaML.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 4,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "MLPClassification_MNIST",
+        "filename": "MLPClassification_MNIST.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "OverviewIA",
+        "filename": "OverviewIA.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Practica_Sudoku_HC_SA",
+        "filename": "Practica_Sudoku_HC_SA.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Preprocesamiento_caso_estudio",
+        "filename": "Preprocesamiento_caso_estudio.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 3,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Preprocesamiento",
+        "filename": "Preprocesamiento.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 5,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "pythonlearn",
+        "filename": "pythonlearn.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 64,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "ReduccionDimensional",
+        "filename": "ReduccionDimensional.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Sesion 10 (Preprocesamiento)",
+        "filename": "Sesion 10 (Preprocesamiento).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 3,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Sesion11 (Regresion)",
+        "filename": "Sesion11 (Regresion).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Sesion12 (Clasificacion)",
+        "filename": "Sesion12 (Clasificacion).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Sesion13 (RedesNeuronales)",
+        "filename": "Sesion13 (RedesNeuronales).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 1,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Sesion14 (Clustering)",
+        "filename": "Sesion14 (Clustering).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Sesion8 (Introduccion)",
+        "filename": "Sesion8 (Introduccion).pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "SimpleClassificationModels",
+        "filename": "SimpleClassificationModels.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "SimpleRegressionModels_pipelines",
+        "filename": "SimpleRegressionModels_pipelines.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 2,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Tutorial_Introduccion_Python",
+        "filename": "Tutorial_Introduccion_Python.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 3,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "Tutorial_Numpy_Pandas",
+        "filename": "Tutorial_Numpy_Pandas.ipynb",
+        "format": "IPYNB",
+        "pages": 0,
+        "chunks": 4,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      },
+      {
+        "doc_id": "[2015]Introduction-to-Evolutionary-Computing 2th edition (Eiben Smith)_cap3-4",
+        "filename": "[2015]Introduction-to-Evolutionary-Computing 2th edition (Eiben Smith)_cap3-4.pdf",
+        "format": "PDF",
+        "pages": 0,
+        "chunks": 18,
+        "has_embeddings": true,
+        "avg_chunk_length": 0.0
+      }
+    ]
+  },
+  "visualizations": {
+    "charts": {
+      "formats_processed": {
+        "type": "bar",
+        "title": "Formatos Procesados por ETL Pipeline",
+        "data": {
+          "labels": [
+            "PPTX",
+            "PDF",
+            "IPYNB"
+          ],
+          "values": [
+            1,
+            22,
+            16
+          ]
+        }
+      },
+      "chunks_distribution": {
+        "type": "histogram",
+        "title": "Distribución de Chunks por Documento",
+        "data": {
+          "bins": [
+            "0-50 chunks",
+            "51-100 chunks",
+            "101-200 chunks",
+            "200+ chunks"
+          ],
+          "counts": [
+            38,
+            1,
+            0,
+            0
+          ]
+        }
+      },
+      "embedding_coverage": {
+        "type": "pie",
+        "title": "Cobertura de Embeddings",
+        "data": {
+          "labels": [
+            "Con Embeddings",
+            "Sin Embeddings"
+          ],
+          "values": [
+            39,
+            0
+          ]
+        }
+      }
+    },
+    "summary_for_ai": {
+      "total_documents": 39,
+      "total_formats": 3,
+      "total_chunks": 165,
+      "avg_chunks_per_doc": 4.23,
+      "embedding_coverage": 100.0,
+      "iov1_passed": true
+    }
+  }
+}

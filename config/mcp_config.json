@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "academic-cs": {
+      "command": "python",
+      "args": [
+        "C:/Users/Acer/rodev_/Tesis/testing/runtime_mcp/academic_mcp_server.py",
+        "--config",
+        "C:/Users/Acer/rodev_/Tesis/testing/config/config.yaml"
+      ],
+      "env": {
+        "PYTHONPATH": "C:/Users/Acer/rodev_/Tesis/testing"
+      },
+      "metadata": {
+        "name": "Servidor Académico CS",
+        "description": "Contextualización académica en Ciencias de la Computación",
+        "version": "1.0.0",
+        "author": "Rodrigo Loayza - PUCP"
+      }
+    }
+  }
+}

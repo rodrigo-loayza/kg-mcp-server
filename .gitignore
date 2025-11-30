@@ -1,0 +1,5 @@
+data/processed/
+data/raw/INF265
+img/
+__pycache__/
+.venv/

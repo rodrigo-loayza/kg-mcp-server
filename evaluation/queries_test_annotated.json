@@ -1,0 +1,99 @@
+[
+  {
+    "query": "¿Qué diferencias hay entre el re-escalamiento Min-Max y la estandarización Z-score, y en qué casos conviene usar cada técnica dentro del preprocesamiento de datos?",
+    "relevant_chunks": [122, 123, 54, 48, 52, 134, 137],
+    "relevance_scores": {
+      "122": 2,
+      "123": 3,
+      "54": 2,
+      "48": 1,
+      "52": 1,
+      "134": 0,
+      "137": 0
+    }
+  },
+  {
+    "query": "¿Cómo la reducción de dimensionalidad mediante PCA ayuda a enfrentar la “maldición de la dimensionalidad” en conjuntos de datos de alta dimensión?",
+    "relevant_chunks": [124, 120, 121, 122],
+    "relevance_scores": {
+      "124": 2,
+      "120": 3,
+      "121": 3,
+      "122": 3
+    }
+  },
+  {
+    "query": "¿Cómo se define cada elemento de la matriz de confusión en un problema de clasificación binaria (TP, TN, FP, FN) y cómo se calculan a partir de ella las métricas accuracy, precision, recall, F1-score y balanced accuracy?",
+    "relevant_chunks": [127, 134, 135],
+    "relevance_scores": {
+      "127": 2,
+      "134": 1,
+      "135": 1
+    }
+  },
+  {
+    "query": "Describe paso a paso cómo se construye un árbol de clasificación a partir de los datos de entrenamiento, explicando el papel de las medidas de impureza (Gini y entropía), la ganancia de pureza y el uso de la profundidad máxima/poda como técnica de regularización.",
+    "relevant_chunks": [127, 128],
+    "relevance_scores": {
+      "127": 3,
+      "128": 3
+    }
+  },
+  {
+    "query": "¿Cómo se modela una neurona artificial tipo perceptrón (entradas, pesos, bias, función de activación) y por qué solo puede separar clases linealmente separables?",
+    "relevant_chunks": [129, 127],
+    "relevance_scores": {
+      "129": 3,
+      "127": 0
+    }
+  },
+  {
+    "query": "Explica la arquitectura de una red Multilayer Perceptron (MLP) y el algoritmo de entrenamiento Backpropagation, detallando las fases forward y backward y el rol de la tasa de aprendizaje.",
+    "relevant_chunks": [129, 42, 43],
+    "relevance_scores": {
+      "129": 3,
+      "42": 2,
+      "43": 2
+    }
+  },
+  {
+    "query": "¿Cómo se utiliza un MLP para la clasificación de imágenes (por ejemplo dígitos escritos a mano), incluyendo el aplanado de la imagen, las capas totalmente conectadas y el uso de ReLU y Softmax?",
+    "relevant_chunks": [42],
+    "relevance_scores": {
+      "42": 3
+    }
+  },
+  {
+    "query": "¿Cómo funciona una metaheurística genética paso a paso (inicialización de la población, evaluación con función de fitness, selección de progenitores, cruzamiento, mutación y selección de sobrevivientes) según su pseudocódigo general?",
+    "relevant_chunks": [17, 18, 6, 13, 14, 34, 7],
+    "relevance_scores": {
+      "17": 3,
+      "18": 2,
+      "6": 2,
+      "13": 2,
+      "14": 2,
+      "34": 2,
+      "7": 2
+    }
+  },
+  {
+    "query": "Explica y compara los operadores de selección de progenitores, cruzamiento y mutación en algoritmos genéticos (ruleta, torneo, tipos de cruzamiento y tipos de mutación) y cómo se relacionan con los roles de explotación y exploración en la búsqueda evolutiva.",
+    "relevant_chunks": [18, 6, 14, 13, 17, 7],
+    "relevance_scores": {
+      "18": 3,
+      "6": 1,
+      "14": 1,
+      "13": 2,
+      "17": 3,
+      "7": 1
+    }
+  },
+  {
+    "query": "¿Cómo se modela y resuelve el problema de las 8 reinas con un algoritmo genético (representación, función de fitness, operadores usados y comportamiento a lo largo de las fases evolutivas: inicial, intermedia y convergencia)?",
+    "relevant_chunks": [13, 14],
+    "relevance_scores": {
+      "13": 1,
+      "14": 3
+    }
+  }
+]

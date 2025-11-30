@@ -1,0 +1,92 @@
+[
+  {
+    "query": "¿Qué es un agente reactivo?",
+    "relevant_chunks": [12, 24, 35, 48, 57],
+    "relevance_scores": { "12": 3, "24": 3, "35": 2, "48": 2, "57": 1 },
+    "topic": "Agentes"
+  },
+  {
+    "query": "Explica el algoritmo de búsqueda A*",
+    "relevant_chunks": [102, 115, 128, 141, 156, 167],
+    "relevance_scores": { "102": 3, "115": 3, "128": 2, "141": 2, "156": 1, "167": 1 },
+    "topic": "Búsqueda con Información"
+  },
+  {
+    "query": "¿Cómo funciona el crossover en algoritmos genéticos?",
+    "relevant_chunks": [215, 228, 241, 254, 267],
+    "relevance_scores": { "215": 3, "228": 3, "241": 2, "254": 2, "267": 1 },
+    "topic": "Algoritmos Genéticos"
+  },
+  {
+    "query": "Diferencia entre búsqueda en profundidad y en amplitud",
+    "relevant_chunks": [95, 108, 121, 134, 147],
+    "relevance_scores": { "95": 3, "108": 3, "121": 2, "134": 2, "147": 1 },
+    "topic": "Resolución y Búsqueda"
+  },
+  {
+    "query": "¿Qué es el fitness en algoritmos evolutivos?",
+    "relevant_chunks": [205, 218, 231, 244, 257],
+    "relevance_scores": { "205": 3, "218": 3, "231": 2, "244": 1, "257": 1 },
+    "topic": "Algoritmos Genéticos"
+  },
+  {
+    "query": "Explica la función heurística en búsqueda informada",
+    "relevant_chunks": [100, 113, 126, 139, 152],
+    "relevance_scores": { "100": 3, "113": 3, "126": 2, "139": 2, "152": 1 },
+    "topic": "Búsqueda con Información"
+  },
+  {
+    "query": "¿Qué es un agente basado en objetivos?",
+    "relevant_chunks": [15, 28, 41, 54, 67],
+    "relevance_scores": { "15": 3, "28": 3, "41": 2, "54": 2, "67": 1 },
+    "topic": "Agentes"
+  },
+  {
+    "query": "Describe el operador de mutación en AG",
+    "relevant_chunks": [220, 233, 246, 259, 272],
+    "relevance_scores": { "220": 3, "233": 3, "246": 2, "259": 2, "272": 1 },
+    "topic": "Algoritmos Genéticos"
+  },
+  {
+    "query": "¿Cómo funciona el algoritmo de búsqueda greedy?",
+    "relevant_chunks": [105, 118, 131, 144, 157],
+    "relevance_scores": { "105": 3, "118": 3, "131": 2, "144": 2, "157": 1 },
+    "topic": "Búsqueda con Información"
+  },
+  {
+    "query": "Ventajas y desventajas de agentes reactivos vs deliberativos",
+    "relevant_chunks": [18, 31, 44, 57, 70, 83],
+    "relevance_scores": { "18": 3, "31": 3, "44": 2, "57": 2, "70": 1, "83": 1 },
+    "topic": "Agentes"
+  },
+  {
+    "query": "¿Qué es el problema del viajante y cómo se resuelve con AG?",
+    "relevant_chunks": [225, 238, 251, 264, 277],
+    "relevance_scores": { "225": 3, "238": 3, "251": 2, "264": 2, "277": 1 },
+    "topic": "Algoritmos Genéticos"
+  },
+  {
+    "query": "Explica el concepto de frontera en búsqueda de espacios de estados",
+    "relevant_chunks": [92, 105, 118, 131, 144],
+    "relevance_scores": { "92": 3, "105": 3, "118": 2, "131": 2, "144": 1 },
+    "topic": "Resolución y Búsqueda"
+  },
+  {
+    "query": "¿Cómo se representa un individuo en un algoritmo genético?",
+    "relevant_chunks": [210, 223, 236, 249, 262],
+    "relevance_scores": { "210": 3, "223": 3, "236": 2, "249": 2, "262": 1 },
+    "topic": "Algoritmos Genéticos"
+  },
+  {
+    "query": "Diferencia entre A* y búsqueda primero el mejor",
+    "relevant_chunks": [107, 120, 133, 146, 159],
+    "relevance_scores": { "107": 3, "120": 3, "133": 2, "146": 2, "159": 1 },
+    "topic": "Búsqueda con Información"
+  },
+  {
+    "query": "¿Qué arquitectura tiene un agente inteligente?",
+    "relevant_chunks": [10, 23, 36, 49, 62, 75],
+    "relevance_scores": { "10": 3, "23": 3, "36": 2, "49": 2, "62": 1, "75": 1 },
+    "topic": "Agentes"
+  }
+]

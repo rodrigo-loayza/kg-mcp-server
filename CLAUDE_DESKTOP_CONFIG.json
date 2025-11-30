@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "academic-cs": {
+      "command": "C:\\Users\\Acer\\rodev_\\Tesis\\testing\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\Users\\Acer\\rodev_\\Tesis\\testing\\runtime_mcp\\academic_mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "C:\\Users\\Acer\\rodev_\\Tesis\\testing"
+      }
+    }
+  }
+}

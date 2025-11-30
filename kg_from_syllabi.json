@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "course_inf265",
+      "type": "Course",
+      "name": "APLICACIONES DE CIENCIAS DE LA COMPUTACIÓN",
+      "code": "INF265",
+      "credits": 4.0,
+      "semester": "2023-2",
+      "level": "intermedio",
+      "area": "artificial_intelligence"
+    },
+    {
+      "id": "topic_inf265_ch1_teor_a_de_compiladores_introdu",
+      "type": "Topic",
+      "name": "TEORÍA DE COMPILADORES - INTRODUCCIÓN",
+      "chapter": "Capítulo 1",
+      "hours": 3,
+      "description": "Introducción a la IA: enfoques, evolución histórica, estado actual, futuro de la IA. Agentes Inteligentes\ny entornos.",
+      "keywords": [
+        "introducción",
+        "enfoques",
+        "evolución",
+        "histórica",
+        "actual"
+      ],
+      "level": "intermedio",
+      "area": "artificial_intelligence",
+      "cso_uri": "https://cso.kmi.open.ac.uk/topics/compilers",
+      "cso_label": "compilers",
+      "cso_similarity": 1.0
+    },
+    {
+      "id": "topic_inf265_ch2_algoritmos_y_heur_sticas_de_b_",
+      "type": "Topic",
+      "name": "ALGORITMOS Y HEURÍSTICAS DE BÚSQUEDA",
+      "chapter": "Capítulo 2",
+      "hours": 9,
+      "description": "Agentes de búsqueda para resolución de problemas. Algoritmos de búsqueda sin información:\nprofundidad, amplitud, costo uniforme, profundización iterativa, búsqueda bidireccional; búsqueda\ncon información: primero el mejor, voraz, A*, funciones heurísticas. Heurísticas de búsqueda.",
+      "keywords": [
+        "búsqueda",
+        "información",
+        "heurísticas",
+        "agentes",
+        "resolución"
+      ],
+      "level": "intermedio",
+      "area": "artificial_intelligence",
+      "cso_uri": "https://cso.kmi.open.ac.uk/topics/de_algorithms",
+      "cso_label": "de algorithms",
+      "cso_similarity": 0.8695652173913043
+    },
+    {
+      "id": "topic_inf265_ch3_metaheur_sticas_bioinspiradas",
+      "type": "Topic",
+      "name": "METAHEURÍSTICAS BIOINSPIRADAS",
+      "chapter": "Capítulo 3",
+      "hours": 9,
+      "description": "Búsqueda local: algoritmo hill-climbing, algoritmo Simulated annealing. Metaheurísticas evolutivas:\nalgoritmos genéticos. Inteligencia Colectiva: enjambre de partículas (PSO), abejas (ABC), colonia de\nhormigas (ACO).",
+      "keywords": [
+        "algoritmo",
+        "búsqueda",
+        "local",
+        "hill",
+        "climbing"
+      ],
+      "level": "intermedio",
+      "area": "artificial_intelligence",
+      "cso_uri": "https://cso.kmi.open.ac.uk/topics/meta-heuristic_methods",
+      "cso_label": "meta-heuristic methods",
+      "cso_similarity": 0.5098039215686274
+    },
+    {
+      "id": "topic_inf265_ch4_fundamentos_de_aprendizaje_de_",
+      "type": "Topic",
+      "name": "FUNDAMENTOS DE APRENDIZAJE DE MAQUINA SUPERVISADO",
+      "chapter": "Capítulo 4",
+      "hours": 12,
+      "description": "Introducción al Aprendizaje automático. Tipos de aprendizaje. Pipeline de aprendizaje supervisado.\nPre-procesamiento de datos. Ingeniería de atributos. Modelos simples de clasificación. Modelos\nsimples de regresión. Modelos ensamblados. Redes neuronales.",
+      "keywords": [
+        "aprendizaje",
+        "modelos",
+        "simples",
+        "introducción",
+        "automático"
+      ],
+      "level": "intermedio",
+      "area": "artificial_intelligence",
+      "cso_uri": "https://cso.kmi.open.ac.uk/topics/supervised_learning",
+      "cso_label": "supervised learning",
+      "cso_similarity": 1.0
+    },
+    {
+      "id": "topic_inf265_ch5_fundamentos_de_aprendizaje_de_",
+      "type": "Topic",
+      "name": "FUNDAMENTOS DE APRENDIZAJE DE MAQUINA NO SUPERVISADO",
+      "chapter": "Capítulo 5",
+      "hours": 6,
+      "description": "horas)\nAnálisis de agrupamiento de datos: técnica de agrupamiento K-means. técnica de agrupamiento\nDBSCAN, técnicas de agrupamiento herárquico.",
+      "keywords": [
+        "agrupamiento",
+        "técnica",
+        "horas",
+        "análisis",
+        "datos"
+      ],
+      "level": "intermedio",
+      "area": "artificial_intelligence",
+      "cso_uri": "https://cso.kmi.open.ac.uk/topics/supervised_learning",
+      "cso_label": "supervised learning",
+      "cso_similarity": 1.0
+    },
+    {
+      "id": "topic_inf265_ch6_introduccion_a_la_teoria_de_co",
+      "type": "Topic",
+      "name": "INTRODUCCION A LA TEORIA DE COMPILADORES",
+      "chapter": "Capítulo 6",
+      "hours": 3,
+      "description": "Compiladores e intérpretes. Ejemplos de compiladores. Estructura de un compilador. Fases de un\nCompilador. Herramientas disponibles.",
+      "keywords": [
+        "compiladores",
+        "compilador",
+        "intérpretes",
+        "ejemplos",
+        "estructura"
+      ],
+      "level": "intermedio",
+      "area": "artificial_intelligence",
+      "cso_uri": "https://cso.kmi.open.ac.uk/topics/compilers",
+      "cso_label": "compilers",
+      "cso_similarity": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "from": "course_inf265",
+      "to": "topic_inf265_ch1_teor_a_de_compiladores_introdu",
+      "type": "TEACHES",
+      "weight": 1.0
+    },
+    {
+      "from": "course_inf265",
+      "to": "topic_inf265_ch2_algoritmos_y_heur_sticas_de_b_",
+      "type": "TEACHES",
+      "weight": 1.0
+    },
+    {
+      "from": "course_inf265",
+      "to": "topic_inf265_ch3_metaheur_sticas_bioinspiradas",
+      "type": "TEACHES",
+      "weight": 1.0
+    },
+    {
+      "from": "course_inf265",
+      "to": "topic_inf265_ch4_fundamentos_de_aprendizaje_de_",
+      "type": "TEACHES",
+      "weight": 1.0
+    },
+    {
+      "from": "course_inf265",
+      "to": "topic_inf265_ch5_fundamentos_de_aprendizaje_de_",
+      "type": "TEACHES",
+      "weight": 1.0
+    },
+    {
+      "from": "course_inf265",
+      "to": "topic_inf265_ch6_introduccion_a_la_teoria_de_co",
+      "type": "TEACHES",
+      "weight": 1.0
+    }
+  ],
+  "metadata": {
+    "source": "syllabus_v2",
+    "course_code": "INF265",
+    "topics_count": 6
+  }
+}

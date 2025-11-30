@@ -1,0 +1,109 @@
+# config.yaml
+# Configuración Central del Sistema de Contextualización Académica
+# Autor: Rodrigo Cárdenas - PUCP
+# VERSIÓN WINDOWS
+
+# ===== NEO4J CONFIGURATION =====
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "12345678"
+
+# ===== EMBEDDING MODEL CONFIGURATION =====
+embeddings:
+  model: "paraphrase-multilingual-mpnet-base-v2" # Modelo multilingüe español-inglés
+  dimension: 768 # 768 para multilingüe, 384 para modelos simples
+  batch_size: 32
+
+# ===== HNSW INDEX CONFIGURATION =====
+hnsw:
+  M: 16 # Número de conexiones (mayor = más memoria, mejor recall)
+  ef_construction: 200 # Calidad de construcción (mayor = mejor pero más lento)
+  ef_search: 50 # Calidad de búsqueda (mayor = mejor recall pero más lento)
+  max_elements: 10000
+
+# ===== PATHS CONFIGURATION (WINDOWS) =====
+paths:
+  input_dir: "C:/Users/Acer/rodev_/Tesis/testing/data/raw/INF265"
+  processed_dir: "C:/Users/Acer/rodev_/Tesis/testing/data/processed"
+  indices_dir: "C:/Users/Acer/rodev_/Tesis/testing/data/indices"
+  hnsw_index: "C:/Users/Acer/rodev_/Tesis/testing/data/indices/hnsw_index.bin"
+  hnsw_mappings: "C:/Users/Acer/rodev_/Tesis/testing/data/indices/hnsw_index_mappings.json"
+  kg_syllabi: "C:/Users/Acer/rodev_/Tesis/testing/data/processed/kg_from_syllabi.json"
+  kg_documents: "C:/Users/Acer/rodev_/Tesis/testing/data/processed/kg_from_documents.json"
+  kg_linked: "C:/Users/Acer/rodev_/Tesis/testing/data/processed/kg_from_documents_linked.json"
+
+# ===== COURSE CONFIGURATION =====
+course:
+  code: "INF265"
+  name: "Aplicaciones de Ciencias de la Computación"
+  semester: "2024-2"
+
+# ===== RETRIEVAL CONFIGURATION =====
+retrieval:
+  default_k: 5 # Número de resultados por defecto
+  max_k: 10 # Máximo de resultados permitidos
+  expand_graph: true # Expandir contexto con grafo por defecto
+  max_hops: 2 # Profundidad de traversal en grafo
+
+# ===== CONCEPT LINKING CONFIGURATION =====
+concept_linking:
+  similarity_threshold: 0.70 # Threshold para relaciones RELATED_TO
+  merge_threshold: 0.90 # Threshold para merge de concepts
+
+# ===== ACADEMIC LEVELS =====
+levels:
+  available: ["básico", "intermedio", "avanzado"]
+  default: "intermedio"
+
+# ===== DOCUMENT PROCESSING =====
+document_processing:
+  chunk_size: 500
+  chunk_overlap: 50
+  respect_paragraphs: true
+  supported_formats:
+    - "pdf"
+    - "ipynb"
+    - "docx"
+    - "pptx"
+    - "html"
+    - "md"
+
+# ===== MCP SERVER CONFIGURATION =====
+mcp_server:
+  name: "academic-mcp-server"
+  version: "1.0.0"
+  description: "Servidor MCP para Contextualización Académica en CS"
+
+  # Capabilities
+  capabilities:
+    tools: true
+    resources: true
+    prompts: true
+
+  # Transport
+  transport: "stdio" # STDIO para Claude Desktop
+
+  # Logging
+  logging:
+    level: "INFO" # DEBUG, INFO, WARNING, ERROR
+    file: "C:/Users/Acer/rodev_/Tesis/testing/logs/mcp_server.log"
+
+# ===== EVALUATION CONFIGURATION =====
+evaluation:
+  metrics:
+    - "ndcg@10"
+    - "recall@10"
+    - "precision@10"
+
+  targets:
+    ndcg_min: 0.75 # IOV: nDCG@10 ≥ 0.75
+    recall_improvement_min: 25 # IOV: Mejora ≥ 25% vs baseline
+
+# ===== METADATA =====
+metadata:
+  author: "Rodrigo Cárdenas"
+  institution: "PUCP"
+  thesis_title: "Servidor MCP para Contextualización Académica en Ciencias de la Computación"
+  advisor: "Andrés Melgar Sasieta"
+  date: "2024"
